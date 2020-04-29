@@ -1,0 +1,282 @@
+@font-face {
+	font-family: 'Conv_Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.border{
+	width: 100%;
+	height: 4px;
+	background-color:  #FFDD00;
+	position: relative;
+
+}
+
+
+.header{
+	background-image:  url("../img/stars.PNG");
+	 min-height: 870px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+ 	position: relative;
+}
+
+
+.header__flex-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+small{
+	font-size: 36px;
+	line-height: 48px;
+	color: #ffffff;
+}
+
+sub{
+	background-color:  rgba(255,216,0,255);
+	width: 65px;
+	height: 25px;
+	border-radius: 5px;
+	font-size: 25px;
+	
+}
+    
+.logo, .navigation {
+    text-transform: uppercase;
+    padding: 5px
+
+}
+
+.navigation>ul{
+	display: flex;
+}
+
+.navigation a,ul,li {
+	list-style: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navigation a:hover {
+    background:   rgba(255,216,0,255);
+}
+
+.header__text__center{
+	justify-content:center;
+	margin-top: 25%;
+
+}
+
+b{
+	font-weight:1;
+	opacity: 0.5;
+	margin-left: 20%;
+	font-family: "Courier New";
+	font-size: 40px;
+}
+
+
+.text{
+	color: #ffffff;
+	margin-right: 9%;
+	text-align: center;
+	font-family:"Conv_Roboto-Regular";
+	font-size: 50px;
+}
+
+.header__form{
+	margin-left: 30%;
+	margin-top: 40px;
+
+}
+
+input[name="password"],[name="email"]{
+	padding: 10px;
+	opacity: 0.2;
+}
+
+button{
+	padding: 11px;
+	width: 110px;
+	border: none;
+	color: black;
+	background-color:  rgba(255,216,0,255);
+	text-transform: uppercase;
+	font-size:14px;
+	
+}
+
+.main{
+	margin:0px 80px 0px;
+	
+}
+
+
+.section1{
+	background-color: rgba(25,27,41,255);
+	width: 100%;
+	height: 750px;
+	
+}
+
+.section__contente{
+	display: flex;
+	justify-content:center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section1__left{
+	margin-top: 110px;
+	width: 40%;
+}
+
+
+.fa-print,.fa-desktop,.fa-mobile-alt,.fa-pencil-ruler{
+	color:  rgba(255,216,0,255);
+
+}
+
+.icons__text{
+	font-size: 35px;
+	color:  #ffffff;
+	font-family: "Conv_Roboto-Regular";
+
+}
+
+.soc__icons__text{
+	font-size: 15px;
+	color: #8486A3;
+	width: 300px;
+	line-height:20px;
+	margin-top: 20px;
+
+
+}
+
+
+.section1__center>img{
+transform: translate(-3%,-6%);
+}
+
+
+.top{
+	margin-top:45px;
+}
+
+
+.section2{
+	background-color: rgba(255,216,0,255);	
+	width: 100%;
+	min-height: 729px;
+
+}
+.section2__text{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	
+}
+.section2__text>div{
+	margin-top: 120px;
+}
+
+.img2{
+	border: 7px solid black;
+    border-radius:50%;
+   	margin-left: 60px;
+}
+
+.img__figure{
+	display: flex;
+	margin-top: 100px;
+	justify-content: space-between;
+
+}
+
+.section2__text__text2>p
+{
+	color: black;
+	font-weight: lighter;
+	font-size: 70px;
+	opacity:0.9;
+}
+
+.section2__text__text2>h3{
+	color: black;
+	font-weight:bold; 
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+.section1__text__text3>p{
+	color: black;
+	font-weight:bold;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.text3{
+ 	color: rgba(134,117,22,255);
+	line-height: 30px;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+footer{
+	background-color: rgba(25,27,41,255);
+	width: 100%;
+	height: auto;
+	
+}
+
+.footer__link{
+	display: flex;
+	justify-content:center;
+	padding: 200px;
+	justify-content: space-between;
+
+}
+
+.footer__link ul,li,a{
+	text-decoration: none;
+	color: white;
+	line-height: 30px;
+}
+
+.footer__text>p{
+	line-height: 30px;
+	justify-content:center;
+	font-size: 25px;
+	 color: #A8A9AE;
+	 text-align: center;
+	 width: 90%;
+	 margin-left: 90px;
+	 padding: 100px;
+	
+}
+
+p>a{
+	color: white;
+}
